@@ -1,7 +1,7 @@
 
 ## Approach 
 
-I used Nextjs Hint the job title though it just simple component i could have used Vitejs Or CRA  
+I used Nextjs though it is a just simple component i could have used Vitejs Or CRA  To bootstrap the app
 
 State Management: I Used useState hook to manage the count state.
 
