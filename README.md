@@ -1,7 +1,23 @@
-# Note:
 
-I know that i could have used Vitejs or good old CRA for this simple thing but i like Nextjs so yeah.
-[https://counter-app-nextjs.vercel.app/](Live Url) 
+## Approach 
+
+I used Nextjs Hint the job title though it just simple component i could have used Vitejs Or CRA  
+
+State Management: I Used useState hook to manage the count state.
+
+Event Handlers: Defined handleIncrement and handleDecrement functions for count manipulation.
+ - for the handleDecrement i assumed that it should not be decrease the count less then 0 based on the initial value
+
+Component Structure: Structured within a div, containing count display and buttons for incrementing and decrementing.
+
+Styling: Utilizes Tailwind CSS for styling with specific utility classes also i added BEM notation class if i needed manual customization.
+
+Accessibility: Buttons are semantically correct and have descriptive titles And the "-" button gets disabled when the count is 0 
+
+Deployment: I Deployed the app on vercel you can view it at [https://counter-app-nextjs.vercel.app/](URL)
+
+
+Source Code: [https://github.com/mohammed-b-hassan/counter-app-nextjs](Github)
 
 ## Getting Started
 
