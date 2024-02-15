@@ -6,7 +6,7 @@ I used Nextjs though it is just a simple component i could have used Vitejs Or C
 State Management: I Used useState hook to manage the count state.
 
 Event Handlers: Defined handleIncrement and handleDecrement functions for count manipulation.
- - for the handleDecrement i assumed that it should not be decrease the count less then 0 based on the initial value
+ - for the handleDecrement i assumed that it should not go below 0 based on the initial value
 
 Component Structure: Structured within a div, containing count display and buttons for incrementing and decrementing.
 
@@ -38,5 +38,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 ## Paths
-```src/components/Counter.tsx`
-```src/app/page.tsx`
+```
+src/components/Counter.tsx
+src/app/page.tsx
+```
